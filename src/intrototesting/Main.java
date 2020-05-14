@@ -12,7 +12,15 @@ public class Main {
 
 		for (int i = 0; i < NUM_REPETICIONES; i++) {
 			suma.obtenerValores(teclado);
+			Dibujante.dibujitoEnAscii1();
+
 		}
+		
+		Dibujante.dibujitoEnAscii2();
+
+		
+		
+		
         teclado.close();
 	}
 }
